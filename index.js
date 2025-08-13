@@ -11,8 +11,8 @@ app.use(cors());
 app.use(userRoutes);
 
 
-const { connectMongoDb } = require('./connection/connection')
-connectMongoDb("mongodb://localhost:27017/mydb");
+//const { connectMongoDb } = require('./connection/connection')
+//connectMongoDb("mongodb://localhost:27017/mydb");
 
 
 // Define a route
