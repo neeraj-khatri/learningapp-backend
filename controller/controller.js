@@ -1,6 +1,6 @@
 const User = require('../models/user');
 
-async function signupHandler(req, res) {
+async function testHandler(req, res) {
    return res.status(400).json({ message: "test here" });
 }
 
@@ -30,5 +30,6 @@ console.log(name,email,username,password);
 }
 
 module.exports = {
-    signupHandler
+    signupHandler,
+    testHandler
 }
