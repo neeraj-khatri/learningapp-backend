@@ -1,5 +1,8 @@
 const User = require('../models/user');
 
+async function signupHandler(req, res) {
+   return res.status(400).json({ message: "test here" });
+}
 
 async function signupHandler(req, res) {
 console.log(req.body);
