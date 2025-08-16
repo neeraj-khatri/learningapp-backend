@@ -13,7 +13,7 @@ app.use(userRoutes);
 
 const { connectMongoDb } = require('./connection/connection')
 //connectMongoDb("mongodb://localhost:27017/mydb");
-connectMongoDb("mongodb+srv://itsneerajkhatri:dRQz7uJV8mfc1K5X@clusterstudents.za3eciv.mongodb.net/?retryWrites=true&w=majority&appName=ClusterStudents");
+connectMongoDb("mongodb+srv://itsneerajkhatri:dRQz7uJV8mfc1K5X@clusterstudents.za3eciv.mongodb.net/testdb?retryWrites=true&w=majority&appName=ClusterStudents");
 
 
 
